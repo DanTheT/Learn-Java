@@ -3,6 +3,11 @@ public class Drinks {
     private String details;
     private Double price;
 
+    public Drinks(String name, String details, Double price) {
+        this.name = name;
+        this.details = details;
+        this.price = price;
+    }
     public String getName() {
         return name;
     }
